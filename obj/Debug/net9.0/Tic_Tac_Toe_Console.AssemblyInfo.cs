@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tic_Tac_Toe_Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3632197a7f730a924af263cc4e5ba88c93a9a09c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36fa7b1d3f2bb022a3d51f74018b65151f90c701")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tic_Tac_Toe_Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tic_Tac_Toe_Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

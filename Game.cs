@@ -32,8 +32,8 @@ public class Game
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        AnsiConsole.MarkupLine("Biron bir katakchani tanlash uchun, o'sha katakchani tepasidagi [green]raqamni[/] kiriting [gray](1-9)[/]\n");
-        AnsiConsole.MarkupLine("O'yinni to'xtatish uchun esa [green]`q`[/] harfini kiritish yoki [green]`CTRL+C`[/] klavish kombinatsi bosish kerak\n");
+        AnsiConsole.MarkupLine("Biron bir katakchani tanlash uchun, o'sha katakchani tepasidagi [yellow]raqamni[/] kiriting [gray](1-9)[/]\n");
+        AnsiConsole.MarkupLine("O'yinni to'xtatish uchun esa [green]`q`[/] harfini kiritish yoki [yellow]`CTRL+C`[/] klavish kombinatsi bosish kerak\n");
         AnsiConsole.MarkupLine("O'yinni boshlash uchun istalgan klaviatura tugmasini bosing");
         Console.ReadKey();
 
@@ -42,7 +42,7 @@ public class Game
         do
         {
             AnsiConsole.Clear();
-            AnsiConsole.MarkupLine($"[bold green]Computer[/] {computerChar} ni o'ynaydi, [bold green]Siz[/] {userChar} ni o'ynaysiz.");
+            AnsiConsole.MarkupLine($"[bold yellow]Computer[/] {computerChar} ni o'ynaydi, [bold yellow]Siz[/] {userChar} ni o'ynaysiz.");
             Console.WriteLine();
             AnsiConsole.WriteLine(computersTurn ? "🤖 Computerni naxbati" : "🫵 ning navbatiz");
             Console.WriteLine();
